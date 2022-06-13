@@ -9,7 +9,7 @@
     background-color: #F5AEDF;
 }
 .carousel-item {
-    height: 100VH;
+    height: 100vh;
     background-position: center top;
     background-size: cover;
 }
