@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.nav-link {
+    color: #FFFFFF;
+}
+.nav-link:hover {
+    color: #FCCFEF;
+}
+.dropdown-item:hover {
+    background-color: #F5AEDF;
+}
+.carousel-item {
+    height: 100VH;
+    background-position: center top;
+    background-size: cover;
+}
+.p1 {
+    background-image: url(url);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #135491;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #F7F7F7;
+    margin-top: 10px;
+    text-align: left;
+    height: 430px;
+}
+.p2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FCD8ED;
+    border-radius: 10px;
+    padding: 10px;
+    position: 10px;
+    height: 215px;
+}
+.p3 {
+    background-color: #EBCAFD;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 205px;
+}
+.p4 {
+    background-color: #B1DAF6;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 430px;
+}
+.container1 {
+    height: 350px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+!important
+;     display: flex;
+}
+.jumbotron {
+    text-align: center;
+    background-image: url(bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+.container1 .col01 {
+    border-radius: 10px;
+    margin: 5px;
+    flex: 1;
+    align-items: flex-end;
+    background-image: url(%E6%B3%95%E5%BA%AD%E4%B8%8A.jpeg);
+    background-position: left center;
+    background-size: cover;
+!important
+;
+    display: flex;
+}
+.container1 .colT {
+    color: #FFFCFC;
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.5;
+}
+.container1 .col02 {
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: flex-end;
+    background-image: url(jonny%20team.jpeg);
+    background-position: center top;
+    background-size: cover;
+!important
+;     display: flex;
+}
+.container1 .col03 {
+    flex: 1;
+    border-radius: 10px;
+    margin: 5px;
+    align-items: flex-end;
+    background-image: url(amber%20team.jpeg);
+    background-position: center top;
+    background-size: cover;
+!important
+;     display: flex;
+}
+.container1 .col02:hover {
+    transform: translateY(-5px);
+}
+.container1 .col03:hover {
+    transform: translateY(-5px);
+}
+.bi-check {
+    transform: scale(5px);
+}
+.title  {
+    font-style: 100;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.container1 .col01:hover {
+    transform: translateY(-5px);
+}
+#a04 .col-lg-6 .img-fluid {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#a05 {
+    padding: 25px;
+    background-image: url(yellow.jpg);
+}
+.col01:hover .colT {
+    -webkit-opacity: 1;
+}
+.footer {
+    background-color: #2E2E2E;
+    color: #FAF4F4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col02:hover .colT {
+    -webkit-opacity: 1;
+}
+.col03:hover .colT {
+    -webkit-opacity: 1;
+}
+#a02 {
+    background-color: #F6FE6F;
+    text-align: center;
+    border-radius: 15px;
+    font-style: normal;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
