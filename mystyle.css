@@ -6,7 +6,7 @@
     color: #FCCFEF;
 }
 .dropdown-item:hover {
-    background-color: #F5AEDF;
+    background-color: #F5AEDF !important;
 }
 .carousel-item {
     height: 100vh;
@@ -60,8 +60,8 @@
     height: 350px;
     width: 90%;
     margin-left: auto;
-    margin-right: auto;
-!important
+    margin-right: auto!important;
+
 ;     display: flex;
 }
 .jumbotron {
@@ -166,4 +166,18 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
+}
+.card.col-lg-3 {
+}
+.card.col-lg-3:hover {
+    text-decoration: none;
+}
+.card.col-lg-3 .card-body .btn.btn-dark {
+    text-decoration: none;
+    color: #FAF4F4;
+}
+.card.col-lg-3 .card-body .btn.btn-dark:hover {
+    text-decoration: underline;
+    transform: scaleY(-5px)!important;
+    background-color: #573385;
 }
